@@ -1,3 +1,6 @@
+# Docker Hub
+https://hub.docker.com/r/wolfange20/assignment2
+
 # Docker Web Application with PHP and MySQL
 
 This is a simple web application using PHP with Apache and MySQL, built and orchestrated using Docker Compose.
@@ -41,3 +44,4 @@ INSERT INTO users (username, email) VALUES ('CharlieBrown', 'charlie@example.com
 INSERT INTO users (username, email) VALUES ('DavidWilliams', 'david@example.com');
 <!-- 4. Daten überprüfen: -->
 SELECT * FROM users;
+
