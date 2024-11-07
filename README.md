@@ -33,18 +33,11 @@ Dieses Setup stellt sicher, dass beim Start der Applikation bereits Daten aus de
 # Kurzanleitung: Befehle zum Hinzufügen von Daten in MySQL
 
 <!-- 1. Mit dem MySQL-Container verbinden: -->
-```bash
 docker exec -it <container_name_or_id> mysql -u root -p
 <!-- 2. Datenbank auswählen: -->
-sql
-Code kopieren
 USE user_data;
 <!-- 3. Neue Daten hinzufügen: -->
-sql
-Code kopieren
 INSERT INTO users (username, email) VALUES ('CharlieBrown', 'charlie@example.com');
 INSERT INTO users (username, email) VALUES ('DavidWilliams', 'david@example.com');
 <!-- 4. Daten überprüfen: -->
-sql
-Code kopieren
 SELECT * FROM users;
